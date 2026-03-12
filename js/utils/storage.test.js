@@ -7,8 +7,8 @@ describe("getUsername", () => {
   });
 
   it("returns the name from user object in storage", () => {
-    saveUser({ name: "TestUser" });
-    expect(getUsername()).toBe("TestUser");
+    saveUser({ name: "Mary" });
+    expect(getUsername()).toBe("Mary");
   });
 
   it("returns null when no user exists in storage", () => {
