@@ -75,6 +75,8 @@ npm run test:e2e:headed
 - Vitest
 - Playwright
 
+## Added workaround to avoid problem with v1 API server (modified config.js, displayVenueList.js, getVenue.js, getVenues.js, login.js)
+
 ## Author
 
 Marina Kovaleva
